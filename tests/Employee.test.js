@@ -10,15 +10,6 @@ describe("Employee", () => {
             expect(testEmployee.id).toEqual(1);
             expect(testEmployee.email).toEqual("john@gmail.com");
         });
-
-        // it("should throw an error if not provided a name", () => {
-        //     // Wrap the object in a callback function that throws an error
-        //     const cb = () => new Employee();
-        //     console.log(cb);
-        //     // Verify that an error was thrown
-        //     const err = new Error("Expected parameter 'name' to be a non-empty string");
-        //     expect(cb).toThrowError(err);
-        // });
     });
 
     describe("getName", () => {

@@ -9,13 +9,6 @@ describe("Manager", () => {
             expect(testManager.id).toBe(1);
             expect(testManager.email).toBe("max@gmail.com");
         });
-        // it("should throw an error if not provided a name", () => {
-        //     // Wrap the object in a callback function that throws an error
-        //     const cb = () => new Manager();
-        //     // Verify that an error was thrown
-        //     const err = new Error("Expected parameter 'name' to be a non-empty string");
-        //     expect(cb).toThrowError(err);
-        // });
     });
     describe("getName", () => {
         it("should return the name of the manager", () => {

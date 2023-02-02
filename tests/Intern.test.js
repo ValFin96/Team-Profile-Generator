@@ -10,13 +10,6 @@ describe("Intern", () => {
             expect(testIntern.email).toBe("olivia@gmail.com");
             expect(testIntern.school).toBe("UCLA");
         });
-        // it("should throw an error if not provided a name", () => {
-        //     // Wrap the object in a callback function that throws an error
-        //     const cb = () => new Intern();
-        //     // Verify that an error was thrown
-        //     const err = new Error("Expected parameter 'name' to be a non-empty string");
-        //     expect(cb).toThrowError(err);
-        // });
     });
     describe("getSchool", () => {
         it("should return the school of the intern", () => {
